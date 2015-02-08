@@ -1,0 +1,9 @@
+/node_modules
+/cache/*
+config.js
+npm-debug.log
+.jshintrc
+.jsdtscope
+.settings
+.tern-project
+.project

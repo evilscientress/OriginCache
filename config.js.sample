@@ -1,0 +1,10 @@
+/**
+ * OriginCache config file 
+ */
+
+module.exports = {
+		wwwPort: 8080,	//The port to bind to
+		eaServer: 'akamai.cdn.ea.com',	//The Server to redirect request to
+		cachedir: './cache',	//Where to store the cached files
+		//localAddress: 'x.x.x.x'	//Local address to bind run requests from
+};
