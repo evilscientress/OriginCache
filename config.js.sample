@@ -3,6 +3,7 @@
  */
 
 module.exports = {
+		wwwAddress: '::1',	//The address to listen at
 		wwwPort: 8080,	//The port to bind to
 		eaServer: 'akamai.cdn.ea.com',	//The Server to redirect request to
 		cachedir: './cache',	//Where to store the cached files

@@ -104,5 +104,5 @@ var srv = http.createServer(function(client_req, client_res) {
 	}
 });
 
-srv.listen(config.wwwPort);
-util.log(version + ' started, listening at ' + config.wwwPort);
+srv.listen(config.wwwPort, config.wwwAddress);
+util.log(version + ' started, listening at ' + config.wwwAddress + ' port '+ config.wwwPort);
