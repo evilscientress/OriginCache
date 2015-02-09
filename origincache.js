@@ -71,7 +71,7 @@ var srv = http.createServer(function(client_req, client_res) {
 								dirpath = path.dirname(dirpath);
 							}
 							while (i = createDirs.pop()) {
-								fs.mkdir(i);
+								fs.mkdirSync(i);
 							}
 						}
 						cacheWriter = fs.createWriteStream(localpath);
